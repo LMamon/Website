@@ -1,0 +1,47 @@
+#main-nav {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: 15%;
+    font-family: 'San Fransisco', sans-serif;
+    font-size: 30px;
+}
+
+#main-nav h1 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+hr {
+    border: 2px solid black;
+    height: 10px;
+    background: radial-gradient(circle, black 20%, transparent 20%);
+    background-size: 15px 4px;
+    background-repeat: repeat-x;
+    position: fixed;
+    width: 90%;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-info {
+    display: flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    right: 10%;
+    bottom: 0;
+    margin: 5px;
+}
+
+#contact-info h4 {
+    border: 2px solid black;
+    display: flex;
+
+}
